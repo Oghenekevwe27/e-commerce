@@ -1,0 +1,31 @@
+
+.product-info{
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+    max-height: 350px;
+    min-width: 417px;
+    background-color:#F6F7F8;
+    z-index: 1;
+
+}
+.product{margin: 20px;}
+
+.product img{height: 150px;width: 100;object-fit: contain;z-index: 1;}
+.amountdis{display: flex;margin-top: 140px;margin-left:50px;}
+.y{margin-right: 20px;text-decoration: line-through;color:  #9098B1;}
+.x{color: red;}
+.w{color: #40BFFF;font-weight: 900;display: flex;margin-left: 310px;}
+.zz{text-decoration: line-through;color:  #9098B1}
+
+
+
+
+            
+// <button type="button" class="btn btn-primary position-relative">
+// <img src="/image/vector.png" alt="src" className="head-image sec" />
+// <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+// <span class="visually-hidden">10</span>
+// </span>
+// </button>
